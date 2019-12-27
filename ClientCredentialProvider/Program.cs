@@ -16,9 +16,9 @@ namespace ClientCredentialProviderTest
     {
         public static async Task Main()
         {
-            string clientId = "8c854dbe-be65-496e-88ae-0844ffb53edb";
-            string tenantID = "9cacb64e-358b-418b-967a-3cabc2a0ea95";
-            string clientSecret = "tAeIr2Qd_/[3O50WPg_?]NcJx/e:4ptp";
+            string clientId = "INSERT_CLIENT_ID_HERE";
+            string tenantID = "INSERT_TENANT_ID_HERE";
+            string clientSecret = "INSERT_CLIENT_SECRET_HERE";
 
             IConfidentialClientApplication confidentialClientApplication = ConfidentialClientApplicationBuilder
                 .Create(clientId)
