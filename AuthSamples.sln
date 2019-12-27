@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractiveAuthProvider", "InteractiveAuthProvider\InteractiveAuthProvider.csproj", "{ACC8B0B6-7AE1-4B3D-98A3-8F96B808B786}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA271029-8FA5-4494-A7DD-62268FCA5380} = {BA271029-8FA5-4494-A7DD-62268FCA5380}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph.Core", "msgraph-sdk-dotnet-core\src\Microsoft.Graph.Core\Microsoft.Graph.Core.csproj", "{BA271029-8FA5-4494-A7DD-62268FCA5380}"
 EndProject
