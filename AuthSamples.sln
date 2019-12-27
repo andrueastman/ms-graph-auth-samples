@@ -10,6 +10,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractiveAuthProvider", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph.Core", "msgraph-sdk-dotnet-core\src\Microsoft.Graph.Core\Microsoft.Graph.Core.csproj", "{BA271029-8FA5-4494-A7DD-62268FCA5380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntergratedWindowsProvider", "IntergratedWindowsProvider\IntergratedWindowsProvider.csproj", "{C09EAB83-DF56-4418-A381-48106956DFBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA271029-8FA5-4494-A7DD-62268FCA5380} = {BA271029-8FA5-4494-A7DD-62268FCA5380}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsernamePasswordProvider", "UsernamePasswordProvider\UsernamePasswordProvider.csproj", "{F28F5E11-52EF-48E2-828E-3CD216D69E6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA271029-8FA5-4494-A7DD-62268FCA5380} = {BA271029-8FA5-4494-A7DD-62268FCA5380}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +34,14 @@ Global
 		{BA271029-8FA5-4494-A7DD-62268FCA5380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA271029-8FA5-4494-A7DD-62268FCA5380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA271029-8FA5-4494-A7DD-62268FCA5380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09EAB83-DF56-4418-A381-48106956DFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09EAB83-DF56-4418-A381-48106956DFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09EAB83-DF56-4418-A381-48106956DFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09EAB83-DF56-4418-A381-48106956DFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28F5E11-52EF-48E2-828E-3CD216D69E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28F5E11-52EF-48E2-828E-3CD216D69E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28F5E11-52EF-48E2-828E-3CD216D69E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28F5E11-52EF-48E2-828E-3CD216D69E6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
